@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.boton{
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 255, 0, 0.5);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul{
+  list-style-type: none;
+  text-align: right;
+  margin-right: 15px;
+
+}
+
+li{
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 11px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+  font-weight: bold;
+}
+#cabecera{
+  height: 40px;
+  background-color: #FFF;
+  background-image: url("img/feedly-logo-small-black.png");
+  background-repeat: no-repeat;
+  background-position: 20px 5px;
+}
+div{
+  background-repeat: no-repeat;
+  background-position: 500px 0px;
+
+}
+
+h1,h2,h3,h4,p{
+  color: #666;
+}
+
+.clar{
+  color: #CCC;
+}
+
+h2{
+  font-family: "helvetica, Arial, sans-serif";
+  width: 400px;
+  padding: 20px 40px;
+  font-size: 40px;
+
+
+}
+
+p{
+  width: 400px;
+  padding: 0px 40px;
+  font-size: 25px;
+
+
+}
+
+
+#coneix{
+  height: 550px;
+  background-color: #6C3;
+  background-image: url("img/img-hero-full-list.png");
+
+}
+
+#tot{
+  height: 641px;
+  background-color: #FFF;
+  background-image: url("img/allinone.jpg");
+}
+
+#util{
+  height: 500px;
+  background-color: #333;
+  background-image: url("img/curator-short.png");
+}
+
+#rapid{
+  height: 550px;
+  background-color: #EEECEE;
+  background-image: url("img/img-hero-full-list.png");
+
+
+}
+
+#facil{
+  height: 550px;
+  background-color: #6C3;
+  background-image: url("img/mobile-share.png");
+  background-position: 500px 20px;
+}
+
+#atot{
+  height: 643px;
+  background-color: #EEECEE;
+  background-image: url("img/anywhere.png");
+  background-position: 500px 20px;
+
+
+}
+
+#pie{
+  height: 180px;
+  background-color: #333;
+  background-image: url(img/);
+  text-align: center;
+  padding-top: 20px;
+}
+
+#pie a{
+  padding-right: 15px
+}
