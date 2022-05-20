@@ -1,0 +1,87 @@
+
+
+body{
+  background-color: lightgrey;
+  margin: 0 auto;
+}
+
+
+.Caja{
+  width: 250px;
+  height: 450px;
+  background-color: grey;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+
+.palo{
+  height: 150px;
+  width: 30px;
+  background:grey;
+  position: absolute;
+  left: 115px;
+  top: 450px;
+}
+
+
+#bola1{
+  height:130px;
+  width: 130px;
+  background-color: #FD2121 ;
+  opacity: 0.5;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 70%;
+}
+
+
+#bola2{
+  height:130px;
+  width: 130px;
+  background-color: #F9E79F;
+  opacity: 0.5;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 85%;
+}
+
+#bola3{
+  height:130px;
+  width: 130px;
+  background-color: #7DCEA0;
+  opacity: 0.5;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 70%;
+}
+
+
+@media screen and (min-width: 767px) {
+  #bola1{
+    background-color: #F1948A;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  #bola2{
+    background-color:#F1C40F;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+  #bola3{
+    background-color:#145A32;
+  }
+
+  #bola2{
+    background-color: #F9E79F;
+  }
+}
