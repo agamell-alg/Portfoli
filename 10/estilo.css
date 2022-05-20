@@ -1,0 +1,91 @@
+body{
+  background-color: silver;
+}
+
+#cara{
+  height:2000px;
+  width: 2000px;
+}
+
+.base_cara{
+background: #EE9D69;
+height: 600px;
+width: 600px;
+clip-path: ellipse(30% 37% at 50% 45%);
+position: relative;
+margin: 50px auto;
+overflow: hidden;
+top: 10px;
+z-index: 9;
+}
+
+.ojos{
+  position: relative;
+  left:120px;
+  top: 130px;
+  width: 210px;
+
+  background: #fff;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  clip-path: ellipse(22% 14% at 50% 50%);
+  display:inline-block;
+}
+
+.ojo_derecho{
+left:70px;
+}
+
+.iris{
+  background: #321503;
+  height: 50px;
+  width: 60px;
+  clip-path: circle(50% at 50% 50%);
+  left: 70px;
+  top:75px;
+  position:absolute;
+}
+
+.pupila{
+  background: black;
+  clip-path: circle(50% at 50% 50%);
+  height: 20px;
+  width: 20px;
+  left: 20px;
+  top:15px;
+  position: relative;
+}
+
+#nariz{
+  clip-path: polygon(39% 6%, 39% 66%, 56% 49%);
+  height: 150px;
+  width: 150px;
+  background: #FAAF80;
+  position: absolute;
+  top: 250px;
+  left: 235px;
+}
+
+#boca{
+  clip-path: polygon(11% 50%, 34% 36%, 42% 36%, 49% 42%, 57% 36%, 66% 36%, 86% 50%, 77% 61%, 65% 69%, 37% 69%, 24% 62%);
+  height: 120px;
+  width: 120px;
+  position: relative;
+  top: 140px;
+  left: 240px;
+  background: #D65842;
+
+}
+
+#pelo{
+  clip-path: polygon(48% 10%, 35% 7%, 24% 12%, 17% 25%, 14% 34%, 11% 51%, 11% 59%, 11% 68%, 11% 74%, 14% 88%, 15% 91%, 18% 97%, 25% 100%, 34% 100%, 32% 92%, 28% 80%, 26% 69%, 25% 63%, 24% 51%, 24% 33%, 31% 25%, 35% 21%, 41% 21%, 46% 24%, 54% 26%, 61% 23%, 69% 23%, 73% 29%, 74% 37%, 75% 46%, 75% 53%, 75% 59%, 77% 68%, 78% 79%, 75% 90%, 72% 96%, 72% 100%, 84% 100%, 86% 91%, 94% 79%, 94% 66%, 89% 53%, 91% 36%, 85% 24%, 79% 14%, 69% 7%, 60% 10%);
+  background: #3E230B;
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  left:700px;
+  top:20px;
+  z-index: 11;
+
+}
